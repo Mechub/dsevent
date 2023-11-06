@@ -56,4 +56,8 @@ public class Categoria {
         this.descricao = descricao;
     }
 
+    public List<Atividade> getAtividades() {
+        return atividades;
+    }
+
 }
